@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to left top, #34be82, #87e0ba);
+    background-attachment: fixed;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10%;
+}
+#info-login {
+    background: linear-gradient(to left top, #880a11, #cf4343);
+    color: #fff;
+    padding: 50px;
+    min-width: 370px;
+    width: 370px;
+    border-radius: 20px 0 0 20px;
+}
+#info-login h1 {
+    font-size: 50px;
+}
+#info-login p {
+    color: rgba(255, 255, 255, 0.5);
+}
+#info-login:hover {
+    transform: scale(1.1);
+    transition-duration: 700ms;
+    border-radius: 20px;
+}
+#input-login {
+    background: linear-gradient(to right top, #282c3d, #51566d);
+    padding: 50px;
+    color: #fff;
+    min-width: 370px;
+    width: 370px;
+    border-radius: 0 20px 20px 0;
+}
+#input-login h1 {
+    display: none;
+    font-size: 50px;
+}
+#input-login label {
+    font-size: 27px;
+}
+#input-login:hover {
+    transform: scale(1.1);
+    transition-duration: 700ms;
+    border-radius: 20px;
+}
+.inputs {
+    background: none;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to left, #ff0000 0%, #aa14f0 100%) 0 0 1 0;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0 20px 0;
+}
+#input-iniciar {
+    background: #41ddf8;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+#input-iniciar:hover {
+    background: #13bbd8;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+a {
+    color: rgba(255, 255, 255, 0.5);
+}
+a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/*Css para menseja de error del login y register*/
+.mensage_error {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #FC4F4F;
+}
+
+@media (max-width: 1175px) {
+    #info-login {
+        border-radius: 20px 0 0 20px;
+    }
+    #input-login {
+        border-radius: 0 20px 20px 0;
+    }
+}
+@media (max-width: 1000px) {
+    #info-login {
+        border-radius: 20px 20px 0 0;
+    }
+    #input-login {
+        border-radius: 0 0 20px 20px;
+    }
+}
+@media (max-width: 680px) {
+    #info-login {
+        display: none;
+    }
+    #input-login {
+        border-radius: 20px;
+    }
+    #input-login h1 {
+        display: block;
+    }
+}

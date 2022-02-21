@@ -1,0 +1,26 @@
+.form_buscar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.titulo_productos {
+    list-style: none;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.select_buscar {
+    width: 150px;
+    margin: 5px;
+}
+.input_buscar {
+    height: 40px;
+    width: 300px;
+    margin: 5px 0;
+}
+.btn_buscar {
+    height: 40px;
+    width: 150px;
+}

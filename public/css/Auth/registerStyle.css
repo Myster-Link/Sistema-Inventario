@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    background: linear-gradient(to left top, #34BE82, #87e0ba);
+    background-attachment: fixed;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3%;
+}
+.regis{
+    background: linear-gradient(to right top, #282c3d, #51566d);
+    padding: 50px;
+    color: #fff;
+    width: 370px;
+}
+.regis label{
+    font-size: 27px;
+}
+#radius-1{
+    border-radius: 20px 0 0 20px;
+}
+#radius-1:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+    border-radius: 20px;
+}
+#radius-2{
+    border-radius: 0 20px 20px 0;
+}
+#radius-2:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+    border-radius: 20px;
+}
+.inputs{
+    background: none;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to left, #FF0000 0%, #AA14F0 100%)  0 0 1 0;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0 20px 0;
+}
+#regis-registrar{
+    background: #41ddf8;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+#regis-registrar:hover{
+    background: #13bbd8;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+a{
+    color: rgba(255, 255, 255, 0.5);
+}
+a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+@media(max-width: 1000px) {
+    #radius-1{
+        border-radius: 20px  20px 0 0;
+    }
+    #radius-2{
+        border-radius: 0 0 20px 20px;
+    }
+
+}

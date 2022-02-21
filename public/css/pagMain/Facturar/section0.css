@@ -1,0 +1,28 @@
+#section0 {
+  background: linear-gradient(to right top, #282c3d, #51566d);
+  color: #fff;
+  margin: -15px 5px 5px 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+}
+
+#section0 h2 {
+  padding: 10px;
+  margin: 0;
+  min-width: 180px;
+}
+
+.h2-section0:hover {
+  background: #3D56B2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.h2Section0-Variante{
+  background: #3D56B2;
+  color: #fff;
+  cursor: pointer;
+}

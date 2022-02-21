@@ -1,0 +1,42 @@
+.div_content_form h1 {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #2666cf;
+    border-radius: 5px;
+    background: #2666cf;
+    color: #fff;
+}
+.form_productos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.form_productos textarea {
+    margin: 0 6px 0 3px;
+}
+.div_form_producto {
+    margin: 10px;
+    width: auto;
+}
+.div_form_producto img {
+    max-width: 300px;
+}
+.input_agregar {
+    width: 200px;
+    margin: 3px;
+}
+.btn_productos {
+    width: 200px;
+    height: 50px;
+    margin: 10px 0;
+}
+.mensage_error {
+    color: red;
+}
+.btn_volver {
+    width: 200px;
+    margin: 10px;
+}
+.input_file{
+    width: 330px;
+}

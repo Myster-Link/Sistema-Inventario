@@ -1,0 +1,45 @@
+#main_principal {
+    margin: 10px;
+}
+#Titulo_Facturar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#Titulo_Facturar a {
+    padding: 5px;
+    margin: 10px ;
+    font-size: 30px;
+    width: 250px;
+}
+.btn_desplegable a{
+    margin: 0 10px;
+    width:200px;
+}
+.btn_collapse {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.div-int-section {
+    margin: 5px;
+}
+.div-int-section input,
+select {
+    width: 200px;
+    height: 30px;
+}
+.div-btn-section1 {
+    margin: 5px;
+}
+.div-btn-section1 p {
+    margin-top: 15px;
+}
+.btn-infoProductos{
+    margin: 20px 5px;
+    
+}
+.btn-infoProductos a{
+    width: 160px;
+    color: #fff;
+}
